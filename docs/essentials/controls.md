@@ -99,7 +99,7 @@ For a few types, Controls can automatically be inferred with [regex](https://dev
 
 | Data type | Default regex                            | Description                                               |
 | :-------: | :--------------------------------------: | :-------------------------------------------------------: |
-| **color** | <code>/(background&#124;color)$/i</code> | Will display a color picker UI for the args that match it |
+| **color** | <code>/(background\|color)$/i</code>     | Will display a color picker UI for the args that match it |
 | **date**  | `/Date$/`                                | Will display a date picker UI for the args that match it  |
 
 If you haven't used the CLI to setup the configuration, or if you want to define your own patterns, use the `matchers` property in the `controls` parameter:
